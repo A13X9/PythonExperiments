@@ -1,5 +1,5 @@
 # PythonExperiments
-Quick and Fun projects using Python
+Quick and Fun Projects Using Python
 
 Currently contains:
 
