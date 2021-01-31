@@ -3,11 +3,11 @@ Quick and Fun projects using Python
 
 Currently contains:
 
--Dice-
+->Dice-
   A simple 6 sides dice app using Tkinter
   
--Euromillions-
+->Euromillions-
   A simple Euromillions random key generator using Tkinter
   
--Magic 8 Ball-
+->Magic 8 Ball-
   I have a magic 8 ball this is it's Python sister.
