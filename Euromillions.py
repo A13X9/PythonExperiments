@@ -6,10 +6,11 @@
 #      \/           \/      \/      
 
 #Euromillions
-    # TODO: ->Fix duplicates in generated key
+    # TODO: ->Test more with duplicates
 
 import random
 import tkinter as tk
+
 
 def numeros_millions():
     numeros_millions_list = []
@@ -18,7 +19,16 @@ def numeros_millions():
         i = random.randint(1, 50)
         numeros_millions_list.append(i)
 
+    while numeros_millions_list.count(i) > 1:
+        print('duplicated number: ' + str(i))
+        print(numeros_millions_list.index(i))
+        duplicate_index = numeros_millions_list.index(i)
+        newrandom = random.randint(1, 50)
+        numeros_millions_list[duplicate_index] = newrandom
+        
     numeros_millions_list.sort()
+    print('NUMBERS: ')
+    print(numeros_millions_list)
     lbl_result_numeros["text"] = numeros_millions_list
 
 def estrelas_millions():
@@ -27,8 +37,17 @@ def estrelas_millions():
     for i in range(2):
         i = random.randint(1, 12)
         estrelas_millions_list.append(i)
+    
+    while  estrelas_millions_list.count(i) > 1:
+            print('duplicated star: ' + str(i))
+            print(estrelas_millions_list.index(i))
+            duplicate_index = estrelas_millions_list.index(i)
+            newrandom = random.randint(1, 12)     
+            estrelas_millions_list[duplicate_index] = newrandom
 
     estrelas_millions_list.sort()
+    print('STARS: ')
+    print(estrelas_millions_list)
     lbl_result_estrelas["text"] = estrelas_millions_list
 
 window = tk.Tk()
