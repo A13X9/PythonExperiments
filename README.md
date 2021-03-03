@@ -20,10 +20,10 @@ Currently contains:
   -I have a magic 8 ball this is it's Python sister.
 
 ->Password Manager   
-  -An amazing and not very secure password manager!
-
-
-
-
-
+  -An amazing and not very secure password manager!  
+  
+  
+  
+  
+  
 note: Most of the projects/experiments are from https://automatetheboringstuff.com/#toc so support the author and buy the book.
