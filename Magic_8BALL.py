@@ -31,10 +31,10 @@ messages = ['It is certain',
             'Outlook not so good',
             'Very doubtful']
 
-shake_roll = tk.Button(text="Shake the 8 Ball", command=ball_message, bg='black', fg='white')
+shake_btn = tk.Button(text="Shake the 8 Ball", command=ball_message, bg='black', fg='white')
 lbl_result = tk.Label(bg='black', fg='white')
 
-shake_roll.grid(row=0, column=0, sticky="nsew")
+shake_btn.grid(row=0, column=0, sticky="nsew")
 lbl_result.grid(row=1, column=0, sticky="nsew")
 
 window.mainloop()
