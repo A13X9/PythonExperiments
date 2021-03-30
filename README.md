@@ -22,4 +22,8 @@ Currently contains:
 ->Password Manager   
   -An amazing and not very secure password manager!  
   
+->ImdbSearcher  
+  -Going to Imdb and writing in the search bar takes a lot of time. 
+  
+  
 Note: Most of the projects/experiments are from https://automatetheboringstuff.com/#toc so support the author and buy the book.
