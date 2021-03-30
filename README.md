@@ -22,7 +22,7 @@ Currently contains:
 ->Password Manager   
   -An amazing and not very secure password manager!  
   
-->ImdbSearcher 
+->ImdbSearcher  
   -Going to Imdb and writing in the search bar takes a lot of time. 
   
   
